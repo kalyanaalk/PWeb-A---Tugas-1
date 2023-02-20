@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+
+<style>
+    /* Write CSS Here */
+    * {
+        margin: 1%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(212, 218, 222);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        width: 60%;
+        border: 3px solid #003742;
+        border-radius: 30px;
+        text-align: center;
+        background-color: #5e8f99;
+        color: white;
+        padding: 20px;
+        margin-bottom: 35px;
+    }
+
+    .aboutme {
+        width: 40%;
+        max-width: 1000px;
+        min-height: 100px;
+    } 
+    #AboutMe, #Education, #Experience, #Skill, #Contact {
+        border-collapse:collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+    td, th {
+        border: 2px solid #003742;
+        padding: 8px;
+        font-size: 15px;
+    }
+    th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #5e8f99;
+        color: white;
+        font-size: 18px;
+    }
+    #AboutMe .image{
+        width: 30%;
+        background-color: #9ec7cf;
+    }
+
+    .education {
+        width: 50%;
+        max-width: 1000px;
+        min-height: 100px;
+    }
+
+    .skill {
+        width: 50%;
+        max-width: 1000px;
+        min-height: 100px;
+    }
+
+    .contact {
+        width: 30%;
+        max-width: 1000px;
+        min-height: 100px;
+    }
+
+    .experience {
+        width: 50%;
+        max-width: 1000px;
+        min-height: 100px;
+    }
+
+    button {
+        border: 1px solid rgb(220, 220, 220);
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(220, 220, 220);
+      }
+
+</style>
+
+<body>
+
+    <h1>Curriculum Vitae</h1>
+    
+    <div class="aboutme">
+        <table id="AboutMe">
+            <tr>
+                <th colspan="3">About Me</th>
+            </tr>
+            <tr>
+                <td rowspan="10" class="image">
+                    <img src="pasfoto (1).jpeg"
+                        alt="gfg-logo"
+                        style="width:100%;height:100%;">
+                </td>
+                <td style="background-color: rgb(196, 196, 196);">Full name</td>
+                <td style="background-color: rgb(220, 220, 220);">Kalyana Putri Al Kanza</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Nick name</td>
+                <td style="background-color: rgb(220, 220, 220);">Kanza</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Date of birth</td>
+                <td style="background-color: rgb(220, 220, 220);">June 30th, 2002</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Gender</td>
+                <td style="background-color: rgb(220, 220, 220);">Female</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Occupation</td>
+                <td style="background-color: rgb(220, 220, 220);">Student</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Nationality</td>
+                <td style="background-color: rgb(220, 220, 220);">Indonesian</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Education</td>
+                <td style="background-color: rgb(220, 220, 220);">
+                    <button type="button">
+                        <a href="#Education">Detail</a>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Experience</td>
+                <td style="background-color: rgb(220, 220, 220);">
+                    <button type="button">
+                        <a href="#Experience">Detail</a>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Skill</td>
+                <td style="background-color: rgb(220, 220, 220);">
+                    <button type="button">
+                        <a href="#Skill">Detail</a>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Contact</td>
+                <td style="background-color: rgb(220, 220, 220);">
+                    <button type="button">
+                        <a href="#Contact">Detail</a>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="education">
+        <table id="Education">
+            <tr>
+                <th colspan="2" >Education Details</th>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Sepuluh Nopember Institute of Technology, Surabaya</td>
+                <td rowspan="2"  style="background-color: #9ec7cf; text-align: center;">2021-present</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(220, 220, 220);">Student of S1 Informatics Engineering</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">SMAN 5 Surabaya</td>
+                <td rowspan="2"  style="background-color: #9ec7cf; text-align: center;">2017-2020</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(220, 220, 220);">Graduated from science major</td>
+            </tr>
+        </table>
+    </div>
+         
+    <div class="experience">
+        <table id="Experience">
+            <tr>
+                <th colspan="2">Experience Details</th>
+            </tr>
+            <tr>
+                <td style="background-color: #9ec7cf; text-align: center;">GLUCK 2017</td>
+                <td style="background-color: rgb(196, 196, 196); text-align: center;">Event Division</td>
+            </tr>
+            <tr>
+                <td colspan="2"  style="background-color: rgb(220, 220, 220);">
+                    <ul>
+                        <li>Scheduled, coordinated, and managed all technical matters of the event.</li>
+                        <li>Selected the venue and equipment needed for the event.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #9ec7cf; text-align: center;">S2LC 2018 & 2019</td>
+                <td style="background-color: rgb(196, 196, 196); text-align: center;">MathPhys Event division</td>
+            </tr>
+            <tr>
+                <td colspan="2"   style="background-color: rgb(220, 220, 220);">
+                    <ul>
+                        <li>Coordinated and managed all technical matters of math-physics competition.</li>
+                        <li>Made games for the competition.</li>
+                        <li>Selected the equipment needed for the event.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #9ec7cf; text-align: center;">SENYUMAN 2018</td>
+                <td style="background-color: rgb(196, 196, 196); text-align: center;">Event Division</td>
+            </tr>
+            <tr>
+                <td colspan="2"  style="background-color: rgb(220, 220, 220);">
+                    <ul>
+                        <li>Scheduled, coordinated, and managed all technical matters of the event.</li>
+                        <li>Selected the venue and equipment needed for the event.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #9ec7cf; text-align: center;">LDKMS 2019</td>
+                <td style="background-color: rgb(196, 196, 196); text-align: center;">Event Division</td>
+            </tr>
+            <tr>
+                <td colspan="2"  style="background-color: rgb(220, 220, 220);">
+                    <ul>
+                        <li>Scheduled, coordinated, and managed all technical matters of the event.</li>
+                        <li>Selected the venue and equipment needed for the event.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #9ec7cf; text-align: center;">SCHEMATICS 2022</td>
+                <td style="background-color: rgb(196, 196, 196); text-align: center;">NLC Schematics Division</td>
+            </tr>
+            <tr>
+                <td colspan="2"  style="background-color: rgb(220, 220, 220);">
+                    <ul>
+                        <li>Made games for NLC competition using Unity.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="skill">
+        <table id="Skill">
+            <tr>
+                <th colspan="2">Skill Details</th>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Language</td>
+                <td style="background-color: rgb(220, 220, 220);">Fluent in Bahasa, intermediate in English</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Software</td>
+                <td style="background-color: rgb(220, 220, 220);">Adobe Photoshop, Microsoft Applications (Word, Powerpoint, and Excel), Figma, and Unity.</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Programming</td>
+                <td style="background-color: rgb(220, 220, 220);">intermediate in C, C++, C#, and Java, beginner in Javascript, HTML, and CSS.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="contact">
+        <table id="Contact">
+            <tr>
+                <th colspan="2">Contact</th>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Email</td>
+                <td style="background-color: rgb(220, 220, 220);">kalyanakanza@gmail.com</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Whatsapp</td>
+                <td style="background-color: rgb(220, 220, 220);">(+62)822-2828-1141</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(196, 196, 196);">Line</td>
+                <td style="background-color: rgb(220, 220, 220);">kalyanaalkanza</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>
